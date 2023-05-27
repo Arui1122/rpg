@@ -1,5 +1,7 @@
 body {
-  background-color: darkblue;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #222f3e;
 }
 
 #text {
@@ -11,15 +13,35 @@ body {
 #game {
   max-width: 500px;
   max-height: 400px;
-  background-color: lightgray;
-  color: white;
-  margin: 0 auto;
-  padding: 10px;
+  background-color: #f8f9fa;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
 }
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
 
 #controls {
   border: 1px black solid;
   padding: 5px;
+}
+
+#button1,
+#button2,
+#button3 {
+  font-size: 16px;
 }
 
 #stats {
